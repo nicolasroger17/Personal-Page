@@ -82,6 +82,12 @@ h1{
 	font-size: inherit;
 }
 
+@media screen and (max-width: 1680px){
+    .menu{
+    	display: none;
+    }
+}
+
 .menu{
 	position: fixed;
 	left: 4%;
@@ -121,10 +127,17 @@ h1{
 }
 
 .part-container{
-	width: 1024px;
+	max-width: 1024px;
+	width: 80%;
 	margin: auto;
 	background: white;
 	border-radius: 2px;
+}
+
+@media screen and (max-width: 1024px){
+    .part-container{
+    	width: 100%;
+    }
 }
 
 .part-top{
