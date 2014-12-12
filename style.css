@@ -191,6 +191,10 @@ h1{
 	background-image: url("img/skills.png");	
 }
 
+.part-bottom{
+	padding: 10px 0;
+}
+
 footer{
 	margin-top: 20px;
 	height: 70px;
@@ -218,10 +222,6 @@ footer{
 	margin: 0;
 	padding-right: 15px;
 	text-align: center;
-}
-
-.date{
-
 }
 
 .circle{
@@ -254,10 +254,6 @@ footer{
 	padding: 10px 40px 0;
 }
 
-.title{
-
-}
-
 .summarize{
 	color: #757575;
 }
@@ -274,4 +270,91 @@ footer{
 
 .summarize a:hover{
 	border-bottom-color: #03A9F4;
+}
+
+.skill-container p{
+	margin: 0;
+	width: calc(20% - 72px);
+	padding: 10 34px;
+	display: inline-block;
+}
+
+.progress-bar{
+	display: inline-block;
+	width: 76%;
+	height: 4px;
+	background: #DEDEDE;
+	background-repeat: no-repeat;
+	transition: background-size .6s ease;
+	background-size: 0%;
+}
+
+.progress-bar[color='blue']{
+	background-image: -webkit-linear-gradient(left, #03A9F4 100%, #03A9F4 100%, #03A9F4 100%);
+	background-image: -moz-linear-gradient(left, #03A9F4 100%, #03A9F4 100%, #03A9F4 100%);
+	background-image: -ms-linear-gradient(left, #03A9F4 100%, #03A9F4 100%, #03A9F4 100%);
+	background-image: linear-gradient(left, #03A9F4 100%, #03A9F4 100%, #03A9F4 100%);
+}
+
+.progress-bar[color='red']{
+	background-image: -webkit-linear-gradient(left, #FF3D00 100%, #FF3D00 100%, #FF3D00 100%);
+	background-image: -moz-linear-gradient(left, #FF3D00 100%, #FF3D00 100%, #FF3D00 100%);
+	background-image: -ms-linear-gradient(left, #FF3D00 100%, #FF3D00 100%, #FF3D00 100%);
+	background-image: linear-gradient(left, #FF3D00 100%, #FF3D00 100%, #FF3D00 100%);
+}
+
+.progress-bar[color='yellow']{
+	background-image: -webkit-linear-gradient(left, #FDD835 100%, #FDD835 100%, #FDD835 100%);
+	background-image: -moz-linear-gradient(left, #FDD835 100%, #FDD835 100%, #FDD835 100%);
+	background-image: -ms-linear-gradient(left, #FDD835 100%, #FDD835 100%, #FDD835 100%);
+	background-image: linear-gradient(left, #FDD835 100%, #FDD835 100%, #FDD835 100%);
+}
+
+.progress-bar[color='orange']{
+	background-image: -webkit-linear-gradient(left, #EF6C00 100%, #EF6C00 100%, #EF6C00 100%);
+	background-image: -moz-linear-gradient(left, #EF6C00 100%, #EF6C00 100%, #EF6C00 100%);
+	background-image: -ms-linear-gradient(left, #EF6C00 100%, #EF6C00 100%, #EF6C00 100%);
+	background-image: linear-gradient(left, #EF6C00 100%, #EF6C00 100%, #EF6C00 100%);
+}
+
+.progress-bar[color='indigo']{
+	background-image: -webkit-linear-gradient(left, #304FFE 100%, #304FFE 100%, #304FFE 100%);
+	background-image: -moz-linear-gradient(left, #304FFE 100%, #304FFE 100%, #304FFE 100%);
+	background-image: -ms-linear-gradient(left, #304FFE 100%, #304FFE 100%, #304FFE 100%);
+	background-image: linear-gradient(left, #304FFE 100%, #304FFE 100%, #304FFE 100%);
+}
+
+.progress-bar[color='green']{
+	background-image: -webkit-linear-gradient(left, #8BC34A 100%, #8BC34A 100%, #8BC34A 100%);
+	background-image: -moz-linear-gradient(left, #8BC34A 100%, #8BC34A 100%, #8BC34A 100%);
+	background-image: -ms-linear-gradient(left, #8BC34A 100%, #8BC34A 100%, #8BC34A 100%);
+	background-image: linear-gradient(left, #8BC34A 100%, #8BC34A 100%, #8BC34A 100%);
+}
+
+.progress-bar[color='green-leaf']{
+	background-image: -webkit-linear-gradient(left, #4CAF50 100%, #4CAF50 100%, #4CAF50 100%);
+	background-image: -moz-linear-gradient(left, #4CAF50 100%, #4CAF50 100%, #4CAF50 100%);
+	background-image: -ms-linear-gradient(left, #4CAF50 100%, #4CAF50 100%, #4CAF50 100%);
+	background-image: linear-gradient(left, #4CAF50 100%, #4CAF50 100%, #4CAF50 100%);
+}
+
+.progress-bar[color='cyan']{
+	background-image: -webkit-linear-gradient(left, #00838F 100%, #00838F 100%, #00838F 100%);
+	background-image: -moz-linear-gradient(left, #00838F 100%, #00838F 100%, #00838F 100%);
+	background-image: -ms-linear-gradient(left, #00838F 100%, #00838F 100%, #00838F 100%);
+	background-image: linear-gradient(left, #00838F 100%, #00838F 100%, #00838F 100%);
+}
+
+.progress-bar[color='purple']{
+	background-image: -webkit-linear-gradient(left, #7E57C2 100%, #7E57C2 100%, #7E57C2 100%);
+	background-image: -moz-linear-gradient(left, #7E57C2 100%, #7E57C2 100%, #7E57C2 100%);
+	background-image: -ms-linear-gradient(left, #7E57C2 100%, #7E57C2 100%, #7E57C2 100%);
+	background-image: linear-gradient(left, #7E57C2 100%, #7E57C2 100%, #7E57C2 100%);
+}
+
+.progress-bar[color='black']{
+	background-image: -webkit-linear-gradient(left, #232323 100%, #232323 100%, #232323 100%);
+	background-image: -moz-linear-gradient(left, #232323 100%, #232323 100%, #232323 100%);
+	background-image: -ms-linear-gradient(left, #232323 100%, #232323 100%, #232323 100%);
+	background-image: linear-gradient(left, #232323 100%, #232323 100%, #232323 100%);
 }

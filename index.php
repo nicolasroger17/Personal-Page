@@ -155,6 +155,48 @@
 				<div class='part-top'>
 					<p class='iconed icon-skills'>My Skills</p>
 				</div>
+				<div class='part-bottom'>
+					<div class='skill-container'>
+						<p>HTML</p>
+						<div class='progress-bar' color='orange' style='background-size: 90% 100%;'></div>
+					</div>
+					<div class='skill-container'>
+						<p>CSS</p>
+						<div class='progress-bar' color='blue' style='background-size: 90% 100%;'></div>
+					</div>
+					<div class='skill-container'>
+						<p>Javscript</p>
+						<div class='progress-bar' color='yellow' style='background-size: 85% 100%;'></div>
+					</div>
+					<div class='skill-container'>
+						<p>PHP</p>
+						<div class='progress-bar' color='purple' style='background-size: 80% 100%;'></div>
+					</div>
+					<div class='skill-container'>
+						<p>NodeJS</p>
+						<div class='progress-bar' color='green' style='background-size: 60% 100%;'></div>
+					</div>
+					<div class='skill-container'>
+						<p>MySQL</p>
+						<div class='progress-bar' color='cyan' style='background-size: 80% 100%;'></div>
+					</div>
+					<div class='skill-container'>
+						<p>MongoDB</p>
+						<div class='progress-bar' color='green-leaf' style='background-size: 30% 100%;'></div>
+					</div>
+					<div class='skill-container'>
+						<p>Bash</p>
+						<div class='progress-bar' color='black' style='background-size: 60% 100%;'></div>
+					</div>
+					<div class='skill-container'>
+						<p>C++</p>
+						<div class='progress-bar' color='indigo' style='background-size: 60% 100%;'></div>
+					</div>
+					<div class='skill-container'>
+						<p>JAVA</p>
+						<div class='progress-bar' color='red' style='background-size: 70% 100%;'></div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<footer></footer>
