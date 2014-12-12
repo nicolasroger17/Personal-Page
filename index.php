@@ -1,9 +1,11 @@
 <?php
+	header('Content-Type: text/html; charset=utf-8');
 	$lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 	include($lang == "fr"?'languages/fr.php':'languages/en.php');
 ?>
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<title>Nicolas Roger</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="icon" type="image/png" href="favicon.png" />
