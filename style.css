@@ -195,11 +195,6 @@ h1{
 	padding: 10px 0;
 }
 
-footer{
-	margin-top: 20px;
-	height: 70px;
-}
-
 #timeline{
 	margin: 0;
 	padding: 20px 30px;
@@ -357,4 +352,27 @@ footer{
 	background-image: -moz-linear-gradient(left, #232323 100%, #232323 100%, #232323 100%);
 	background-image: -ms-linear-gradient(left, #232323 100%, #232323 100%, #232323 100%);
 	background-image: linear-gradient(left, #232323 100%, #232323 100%, #232323 100%);
+}
+
+footer{
+	text-align: center;
+	margin-top: 20px;
+	padding: 10px 0 6px;
+}
+
+.social{
+	height: 60px;
+	width: 60px;
+	background-size: 60px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.linkedin{
+	background-image: url("img/linkedin.png");
+}
+
+.github{
+	background-image: url("img/github.png");
 }

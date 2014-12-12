@@ -29,7 +29,7 @@
 					<p class='iconed icon-about'><?php echo _aboutme;?></p>
 				</div>
 				<div class='part-body about-text' style="background-image:url('img/profile.jpg')">
-					<?php echo _mydesc;?>
+					<span><?php echo _mydesc;?></span>
 				</div>
 			</div>
 		</div>
@@ -198,7 +198,11 @@
 				</div>
 			</div>
 		</div>
-		<footer></footer>
+		<footer>
+			<a href='https://fr.linkedin.com/in/nroger/' class='social linkedin' target="_blank"></a>
+			<a href='https://github.com/nicolasroger17' class="social github" target="_blank">
+			</a>
+		</footer>
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/jquery.smooth-scroll.min.js"></script>
 		<script type="text/javascript" src="js/js.js"></script>
