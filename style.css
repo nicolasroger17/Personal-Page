@@ -275,7 +275,7 @@ footer{
 .skill-container p{
 	margin: 0;
 	width: calc(20% - 72px);
-	padding: 10 34px;
+	padding: 10px 34px;
 	display: inline-block;
 }
 
