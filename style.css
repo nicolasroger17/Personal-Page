@@ -16,6 +16,7 @@
 body{
 	margin: 0;
 	background: #EEEEEE;
+	font-family: "roboto-medium";
 }
 
 .top{
@@ -25,6 +26,7 @@ body{
 
 header, footer{
 	background: #0277BD;
+	z-index: 10;
 }
 
 .shadow{
@@ -118,14 +120,9 @@ h1{
 	background-repeat: no-repeat;
 }
 
-.part{
-	height: 500px;
-}
-
 .part-container{
 	width: 1024px;
 	margin: auto;
-	height: inherit;
 	background: white;
 	border-radius: 2px;
 }
@@ -140,6 +137,14 @@ h1{
 	padding-left: 60px;
 }
 
+.part-body{
+	padding: 20px;
+	padding-left: 160px;
+	margin: auto;
+	min-height: 160px;
+	color: #212121;
+}
+
 .about{
 	padding-top: 70px;
 	background-image: -webkit-linear-gradient(top, #03A9F4 143px, transparent 143px, transparent 100%);
@@ -151,12 +156,10 @@ h1{
 	background-image: url("img/about.png");	
 }
 
-.skills{
-	margin-top: 20px;
-}
-
-.icon-skills{
-	background-image: url("img/skills.png");	
+.about-text{
+	background-size: 120px;
+	background-position: 20px;
+	background-repeat: no-repeat;
 }
 
 .exp{
@@ -167,7 +170,95 @@ h1{
 	background-image: url("img/exp.png");	
 }
 
+.skills{
+	margin-top: 20px;
+}
+
+.icon-skills{
+	background-image: url("img/skills.png");	
+}
+
 footer{
 	margin-top: 20px;
 	height: 70px;
+}
+
+#timeline{
+	margin: 0;
+	padding: 20px 30px;
+}
+
+#timeline li{
+	margin: 0;
+	list-style-type: none;
+}
+
+.legend{
+	width: 18%;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	padding-top: 20px;
+}
+
+.legend p{
+	margin: 0;
+	padding-right: 15px;
+	text-align: center;
+}
+
+.date{
+
+}
+
+.circle{
+	position: absolute;
+	top: 15px;
+	right: -32px;
+	width: 36px;
+	height: 36px;
+	border-radius: 36px;
+	background: #EDEDED;
+	border: #EDEDED solid 5px;
+}
+
+.circle[type='work']{
+	background-image: url("img/work.png");
+}
+
+.circle[type='home']{
+	background-image: url("img/home.png");
+}
+
+.circle[type='school']{
+	background-image: url("img/univ.png");
+}
+
+.description{
+	border-left: #EDEDED solid 10px;
+	display: inline-block;
+	width: calc(82% - 100px);
+	padding: 10px 40px 0;
+}
+
+.title{
+
+}
+
+.summarize{
+	color: #757575;
+}
+
+.summarize a{
+	color: #03A9F4;
+	text-decoration: none;
+	border-bottom: 1px solid white;
+	transition: border .3s ease;
+	-webkit-transition: border .3s ease;
+	-moz-transition: border .3s ease;
+	-ms-transition: border .3s ease;
+}
+
+.summarize a:hover{
+	border-bottom-color: #03A9F4;
 }
