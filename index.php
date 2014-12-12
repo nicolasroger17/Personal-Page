@@ -3,6 +3,7 @@
 	$lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 	include($lang == "fr"?'languages/fr.php':'languages/en.php');
 ?>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
