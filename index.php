@@ -164,7 +164,7 @@
 						<div class='progress-bar' color='blue' style='background-size: 90% 100%;'></div>
 					</div>
 					<div class='skill-container'>
-						<p>Javscript</p>
+						<p>Javascript</p>
 						<div class='progress-bar' color='yellow' style='background-size: 85% 100%;'></div>
 					</div>
 					<div class='skill-container'>
