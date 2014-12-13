@@ -5,7 +5,7 @@ define("_myexp", "Mes Éxperiences");
 define("_myskills", "Mes Compétences");
 define("_mydesc", "Bientôt diplomé de l'ISEP, Institut supérieur d'Électronique de Paris, passionné
 					par les nouvelles technologies et particulièrement le Web, je suis 
-					acutellement en stage chez la société Smile.");
+					actuellement en stage chez la société Smile.");
 define("_january", "Janvier");
 define("_february", "Février");
 define("_march", "Mars");

@@ -12,7 +12,7 @@
 		<link rel="icon" type="image/png" href="favicon.png" />
 	</head>
 	<body>
-		<div class='top'></div>
+		<!--<div class='top'></div>-->
 		<header class='shadow' scroll="false">
 			<h1>Nicolas Roger</h1>
 		</header>
@@ -194,6 +194,10 @@
 					<div class='skill-container'>
 						<p>JAVA</p>
 						<div class='progress-bar' color='red' style='background-size: 70% 100%;'></div>
+					</div>
+					<div class='skill-container'>
+						<p>Python</p>
+						<div class='progress-bar' color='dark-blue' style='background-size: 30% 100%;'></div>
 					</div>
 				</div>
 			</div>

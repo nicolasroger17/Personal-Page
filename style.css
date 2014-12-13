@@ -15,13 +15,12 @@
 
 body{
 	margin: 0;
-	background: #EEEEEE;
+	/*background: #EEEEEE;*/
 	font-family: "roboto-medium";
-}
-
-.top{
-	height: 170px;
-	background: #03A9F4;
+	background-image: -webkit-linear-gradient(top, #03A9F4 300px, #EEEEEE 300px, #EEEEEE 100%);
+	background-image: -moz-linear-gradient(top, #03A9F4 300px, #EEEEEE 300px, #EEEEEE 100%);
+	background-image: -ms-linear-gradient(top, #03A9F4 300px, #EEEEEE 300px, #EEEEEE 100%);
+	background-image: linear-gradient(top, #03A9F4 300px, #EEEEEE 300px, #EEEEEE 100%);
 }
 
 header, footer{
@@ -159,11 +158,12 @@ h1{
 }
 
 .about{
+	margin-top: 170px;
 	padding-top: 70px;
-	background-image: -webkit-linear-gradient(top, #03A9F4 143px, transparent 143px, transparent 100%);
+	background-image: -webkit-linear-gradient(top, #03A9F4 142px, transparent 142px, transparent 100%);
 	background-image: -moz-linear-gradient(top, #03A9F4 141px, transparent 141px, transparent 100%);
-	background-image: -ms-linear-gradient(top, #03A9F4 143px, transparent 143px, transparent 100%);
-	background-image: linear-gradient(top, #03A9F4 143px, transparent 143px, transparent 100%);
+	background-image: -ms-linear-gradient(top, #03A9F4 141px, transparent 141px, transparent 100%);
+	background-image: linear-gradient(top, #03A9F4 141px, transparent 141px, transparent 100%);
 }
 .icon-about{
 	background-image: url("img/about.png");	
@@ -352,6 +352,13 @@ h1{
 	background-image: -moz-linear-gradient(left, #232323 100%, #232323 100%, #232323 100%);
 	background-image: -ms-linear-gradient(left, #232323 100%, #232323 100%, #232323 100%);
 	background-image: linear-gradient(left, #232323 100%, #232323 100%, #232323 100%);
+}
+
+.progress-bar[color='dark-blue']{
+	background-image: -webkit-linear-gradient(left, #0277BD 100%, #0277BD 100%, #0277BD 100%);
+	background-image: -moz-linear-gradient(left, #0277BD 100%, #0277BD 100%, #0277BD 100%);
+	background-image: -ms-linear-gradient(left, #0277BD 100%, #0277BD 100%, #0277BD 100%);
+	background-image: linear-gradient(left, #0277BD 100%, #0277BD 100%, #0277BD 100%);
 }
 
 footer{
