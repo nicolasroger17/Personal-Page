@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	$(document).scroll(function() {
-		$('header').attr("scroll", $(this).scrollTop()>1 ? "true":"false");
+		console.log($(this).scrollTop());
+		$('header').attr("scroll", $(this).scrollTop()>80 ? "true":"false");
 
 		if($(".menu:eq(0)").offset().top < $(".exp:eq(0)").offset().top){
 			unselect();
@@ -24,11 +25,7 @@ $(document).ready(function() {
 		    	scrollTarget: "#" + id.substring(5, id.length)
 		    });
 		    return false;
-		});/*
-		$(this).click(function(){
-			var id = $(this).attr("id");
-			$("#" + id.substring(5, id.length)).smoothScroll();
-		});*/
+		});
 	});
 });
 
