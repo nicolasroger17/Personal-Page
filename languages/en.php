@@ -5,7 +5,7 @@ define("_myexp", "My Experiences");
 define("_myskills", "My Skills");
 define("_mydesc", "About to be graduated from ISEP, IT University in Paris, passionated by
 					new technologies and particularly the Web, I'm actually looking for an internship
-					for the beginning of 2015");
+					for the beginning of 2015.");
 define("_january", "January");
 define("_february", "February");
 define("_march", "March");
