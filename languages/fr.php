@@ -20,6 +20,7 @@ define("_november", "Novembre");
 define("_december", "Decembre");
 
 define("_oneof", "Un jour de ");
+define("_oneWE", "Un week-end de ");
 
 define("_perspro", "Projet Personnel");
 define("_univpro", "Projet au sein de l'École");
@@ -29,6 +30,7 @@ define("_twitter", "Développement d’un site permettant de suivre les hashtag 
 					page donnée en temps réel");
 define("_res", "Réalisation d'un");
 define("_minesweeper", "Démineur");
+define("_crea", "Réalisation du jeu ");
 define("_fitted", "Conception, réalisation et mise en place en ligne d’un site de vente de vêtements 					entre particuliers :");
 define("_solarnet", "Ajout de modules sur le site interne de la société Solarnet");
 define("_aplustitle", "Association Alliances Plus");

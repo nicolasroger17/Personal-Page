@@ -20,6 +20,7 @@ define("_november", "November");
 define("_december", "December");
 
 define("_oneof", "One day of");
+define("_oneWE", "One week-end of ");
 
 define("_perspro", "Personal Project");
 define("_univpro", "University Project");
@@ -30,6 +31,7 @@ define("_twitter", "Designed a website to track twitter hashtag on a given page 
 					time");
 define("_res", "Realisation of a");
 define("_minesweeper", "Minesweeper");
+define("_crea", "Implementation of the game ");
 define("_fitted", "Built and designed an online clothing shop :");
 define("_solarnet", "Features adding on the internal website for the Solarnet company");
 define("_aplustitle", "Association Alliances Plus");
