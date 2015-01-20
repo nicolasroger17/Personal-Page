@@ -1,6 +1,5 @@
 $(document).ready(function() {
 	$(document).scroll(function() {
-		console.log($(this).scrollTop());
 		$('header').attr("scroll", $(this).scrollTop()>80 ? "true":"false");
 
 		if($(".menu:eq(0)").offset().top < $(".exp:eq(0)").offset().top){
