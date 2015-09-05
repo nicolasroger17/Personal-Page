@@ -41,6 +41,57 @@ include($lang == "fr"?'languages/fr.php':'languages/en.php');
 			<ul id='timeline'>
 				<li>
 					<div class='legend'>
+						<p class='date'><?php echo _oneof . ' ' . _august;?> 2015</p>
+						<span class='circle' type='home'></span>
+					</div>
+					<div class='description'>
+						<p class='title'><?php echo _perspro;?></p>
+						<p class='summarize'>
+							<?php echo _basicangular;?>
+							<a target='_blank' href='https://github.com/nicolasroger17/Basic-Angular-NodeJS-App'>Github link</a>
+						</p>
+					</div>
+				</li>
+				<li>
+					<div class='legend'>
+						<p class='date'><?php echo _march . " - " . _april;?> 2015</p>
+						<span class='circle' type='home'></span>
+					</div>
+					<div class='description'>
+						<p class='title'><?php echo _perspro;?></p>
+						<p class='summarize'>
+							<?php echo _atpcountrydes;?>
+						</p>
+					</div>
+				</li>
+				<li>
+					<div class='legend'>
+						<p class='date'><?php echo _oneof . " " . _february;?> 2015</p>
+						<span class='circle' type='home'></span>
+					</div>
+					<div class='description'>
+						<p class='title'><?php echo _perspro;?></p>
+						<p class='summarize'>
+							<?php echo _res . ': ';?>
+							<a target='_blank' href='https://github.com/nicolasroger17/Sudoku-solver'><?php echo _sudokusolver; ?></a>
+						</p>
+					</div>
+				</li>
+				<li>
+					<div class='legend'>
+						<p class='date'><?php echo _aWeek . " " . _january;?> 2015</p>
+						<span class='circle' type='home'></span>
+					</div>
+					<div class='description'>
+						<p class='title'><?php echo _perspro;?></p>
+						<p class='summarize'>
+							<?php echo _foodcrawlerdes;?>
+							<a target='_blank' href='https://github.com/nicolasroger17/Food-crawler'>Github link</a>
+						</p>
+					</div>
+				</li>
+				<li>
+					<div class='legend'>
 						<p class='date'><?php echo _oneWE . " " . _december;?> 2014</p>
 						<span class='circle' type='home'></span>
 					</div>
@@ -48,7 +99,7 @@ include($lang == "fr"?'languages/fr.php':'languages/en.php');
 						<p class='title'><?php echo _perspro;?></p>
 						<p class='summarize'>
 							<?php echo _crea;?>
-							<a target='_blank' href='http://89.156.6.211/Flood-it/'>Flood-it</a>
+							<a target='_blank' href='http://188.166.38.214/Flood-it/'>Flood-it</a>
 						</p>
 					</div>
 				</li>
@@ -87,7 +138,7 @@ include($lang == "fr"?'languages/fr.php':'languages/en.php');
 						<p class='title'><?php echo _perspro;?></p>
 						<p class='summarize'>
 							<?php echo _res;?>
-							<a target='_blank' href='http://89.156.6.211/mineSweeper/'><?php echo _minesweeper; ?></a>
+							<a target='_blank' href='http://188.166.38.214/mineSweeper/'><?php echo _minesweeper; ?></a>
 						</p>
 					</div>
 				</li>
@@ -169,23 +220,23 @@ include($lang == "fr"?'languages/fr.php':'languages/en.php');
 			<div class='part-bottom'>
 				<div class='skill-container'>
 					<p>HTML</p>
-					<div class='progress-bar' color='orange' style='background-size: 90% 100%;'></div>
+					<div class='progress-bar' color='orange' style='background-size: 100% 100%;'></div>
 				</div>
 				<div class='skill-container'>
 					<p>CSS</p>
-					<div class='progress-bar' color='blue' style='background-size: 90% 100%;'></div>
+					<div class='progress-bar' color='blue' style='background-size: 100% 100%;'></div>
 				</div>
 				<div class='skill-container'>
 					<p>Javascript</p>
-					<div class='progress-bar' color='yellow' style='background-size: 85% 100%;'></div>
+					<div class='progress-bar' color='yellow' style='background-size: 95% 100%;'></div>
 				</div>
 				<div class='skill-container'>
 					<p>PHP</p>
-					<div class='progress-bar' color='purple' style='background-size: 80% 100%;'></div>
+					<div class='progress-bar' color='purple' style='background-size: 60% 100%;'></div>
 				</div>
 				<div class='skill-container'>
 					<p>NodeJS</p>
-					<div class='progress-bar' color='green' style='background-size: 70% 100%;'></div>
+					<div class='progress-bar' color='green' style='background-size: 85% 100%;'></div>
 				</div>
 				<div class='skill-container'>
 					<p>MySQL</p>
@@ -201,7 +252,7 @@ include($lang == "fr"?'languages/fr.php':'languages/en.php');
 				</div>
 				<div class='skill-container'>
 					<p>C++</p>
-					<div class='progress-bar' color='indigo' style='background-size: 60% 100%;'></div>
+					<div class='progress-bar' color='indigo' style='background-size: 40% 100%;'></div>
 				</div>
 				<div class='skill-container'>
 					<p>JAVA</p>

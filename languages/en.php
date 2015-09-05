@@ -21,7 +21,14 @@ define("_december", "December");
 
 define("_oneof", "One day of");
 define("_oneWE", "One week-end of ");
+define("_aWeek", "A week of ");
 
+define("_basicangular", "Creation of the skeleton of an angular project with a REST NodeJS server: ");
+define("_atpcountrydes", "Creation of the website <a target='_blank' href='http://www.atpcountry.com/'>ATP Country</a> with a friend, it shows the ranking by country in real time.");
+define("_atpcountry", "ATP Country");
+define("_sudokusolver", "Sudoku Solver");
+define("_foodcrawlerdes", "Creation of a crawler that gathers images and name of food from Wikipedia: ");
+define("_foodcrawler", "Food Crawler");
 define("_perspro", "Personal Project");
 define("_univpro", "University Project");
 define("_junior", "Junior Company of ISEP");
