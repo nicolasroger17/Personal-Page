@@ -138,7 +138,7 @@ include($lang == "fr"?'languages/fr.php':'languages/en.php');
 						<p class='title'><?php echo _perspro;?></p>
 						<p class='summarize'>
 							<?php echo _res;?>
-							<a target='_blank' href='http://188.166.38.214/mineSweeper/'><?php echo _minesweeper; ?></a>
+							<a target='_blank' href='http://188.166.38.214/MineSweeper/'><?php echo _minesweeper; ?></a>
 						</p>
 					</div>
 				</li>

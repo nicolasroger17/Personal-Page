@@ -23,11 +23,11 @@ define("_oneof", "Un jour de ");
 define("_oneWE", "Un week-end de ");
 define("_aWeek", "Une Semaine de ");
 
-define("_basicangular", "Création d'un skelette de projet angular avec un serveur REST en NodeJS: ");
+define("_basicangular", "Création d'un skelette de projet angular avec un serveur REST en NodeJS : ");
 define("_atpcountrydes", "Création du site <a target='_blank' href='http://www.atpcountry.com/'>ATP Country</a> avec un ami, ce site permet de visualiser le classement des pays en temps réel.");
 define("_atpcountry", "ATP Country");
 define("_sudokusolver", "Sudoku Solver");
-define("_foodcrawlerdes", "Création d'un crawler permettant de recupérer les images et noms de nourritures depuis Wikipedia: ");
+define("_foodcrawlerdes", "Création d'un crawler permettant de recupérer les images et noms de nourritures depuis Wikipedia : ");
 define("_foodcrawler", "Food Crawler");
 define("_perspro", "Projet Personnel");
 define("_univpro", "Projet au sein de l'École");
