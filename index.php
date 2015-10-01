@@ -152,7 +152,7 @@ include($lang == "fr"?'languages/fr.php':'languages/en.php');
 						<p class='title'><?php echo _junior;?></p>
 						<p class='summarize'>
 							<?php echo _fitted;?>
-							<a target='_blank' href='http://www.fitted.fr'>www.fitted.fr</a>
+							<a target='_blank' href='http://fitted-nicolasroger17.rhcloud.com/'>Fitted</a>
 						</p>
 					</div>
 				</li>
